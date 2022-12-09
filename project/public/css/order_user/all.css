@@ -1,0 +1,134 @@
+.gray{
+    color: #979797;
+}
+.red2{
+    color: red;
+}
+
+.orange{
+    color: orange;
+}
+.container_all_or .search input[type="text"]{
+    width: 80%;
+    margin-left: 157px;
+    height: 50px;
+    padding: 10px 60px;
+    border: none;
+    background-color:rgb(223, 221, 224);
+}
+
+
+.contain_all {
+    width: 80%;
+    margin-left: 157px;
+    border: 1px solid rgb(189, 186, 186);
+    margin-top: 20px;
+}
+
+.contain_all .header_all{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px 1px;
+}
+.contain_all .header_all h5{
+    font-size: 20px;
+    margin-left: 40px;
+    color: #e77b00;
+}
+.contain_all .header_all .title{
+    margin-left: 550px;
+    font-size: 17px;
+}
+.contain_all .header_all .title .inf{
+    color: #e77b00;
+    font-weight: 600;
+}
+.contain_all .header_all .title .success,
+.contain_all .header_all .title .success{
+    color: rgb(4, 136, 59);
+}
+
+.contain_all .header_all .title .failed,
+.contain_all .header_all .title .failed{
+    color: rgb(255, 51, 0);
+}
+
+.bottom{
+    margin-left: 41px;
+    width: 92%;
+    border-bottom: 1px solid rgb(202, 197, 197);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.contain_all .header_body {
+    display:flex;
+}
+.contain_all .header_body .contain_image{
+    width: 82px;
+    height: 110px;
+    margin-left: 42px;
+    margin-top: 4px;
+    box-shadow: 0px 0px 2px 0px rgb(185, 184, 184);
+}
+
+.contain_all .header_body .contain_image img{
+    width: 82px;
+    height: 110px;
+}
+
+.contain_all .header_body .name_book{
+    margin-left: 104px;
+    margin-top: 10px;
+}
+.contain_all .header_body .name_book h4{
+    margin-bottom: 15px;
+}
+.contain_all .header_body .name_book p{
+    margin-bottom: 5px;
+}
+
+.contain_all .header_body .price{
+    display: flex;
+    margin-left: 454px;
+    margin-top: 38px;
+    font-size: 19px;
+}
+.contain_all .header_body .price del{
+    margin-top: 2px;
+    font-size: 16px;
+    color: #979797;
+}
+.contain_all .header_body .price p{
+    font-weight: 600;
+    color: #e77b00;
+}
+.contain_all .footer .container_for{
+    margin-left: 822px;
+    margin-top: 10px;
+}
+.contain_all .footer .container_for .total{
+    display: flex;
+    margin-bottom: 15px;
+}
+.contain_all .footer .container_for .total h2{
+    color: rgb(247, 99, 0);
+}
+.contain_all .footer .container_for .total h3{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(156, 103, 67);
+}
+.contain_all .footer input[type="submit"]{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 6px;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border: none;
+    background:linear-gradient(rgb(214, 141, 93),rgb(252, 120, 43),rgb(238, 166, 58));
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px rgb(189, 176, 176);
+}

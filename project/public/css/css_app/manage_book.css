@@ -1,0 +1,74 @@
+.manage_book{
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 199px;
+}
+.first_table{
+    background-color: rgb(153, 236, 98);
+}
+
+table, th, td{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+
+}
+.manage_book_show:hover{
+    background-color: rgb(226, 220, 220);
+    transition: all 0.2s;
+}
+table{
+    margin-top: 50px;
+    border-collapse:collapse;
+    width:100%;
+}
+td{
+    font-weight: 500;
+    transition: all 0.2s;
+}
+th, td{
+    text-align:center;
+    padding:10px;
+}
+
+.manage_book a{
+    padding: 3px 12px;
+    border: 1px solid red;
+    background-color: rgb(243, 61, 61);
+    border-radius: 3px;
+    font-weight: 600;
+    transition: all 0.2s;
+    color:#fff;
+}
+.manage_book a:hover{
+    box-shadow: 0 2px 5px #aaaaaa;
+    transition: all 0.2s;
+}
+
+.manage_book .manage_book_img{
+    width: 111px;
+    height: 137px;
+    margin-left: 46px;
+}
+
+.manage_book_search{
+    margin-left: 194px;
+    margin-top: 50px;
+}
+
+.manage_book_search .book_search{
+    width: 80%;
+    padding: 10px 10px;
+}
+.manage_book_search input[type=submit]{
+    padding: 12px 10px;
+    border-radius: 2px;
+    outline:none;
+    border: none;
+    transition: all 0.2s;
+    font-weight: 600;
+}
+.manage_book_search input[type=submit]:hover{
+    background-color:rgb(50, 221, 50);
+    color: #fff;
+    transition: all 0.2s;
+}

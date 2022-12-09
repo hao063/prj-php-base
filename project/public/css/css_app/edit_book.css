@@ -1,0 +1,93 @@
+.container_edit_book{
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(199 236 209);
+    width: 800px;
+    height: auto;
+    margin-top: 77px;
+    margin-left: 342px;
+    padding: 5px 5px;
+}
+.container_edit_book>form>div{
+    margin-left: 12px;
+    float: left;
+}
+.container_edit_book h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.container_edit_book input[type="text"],.container_edit_book input[type="password"]{
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 328px;
+    padding: 11px 34px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid#e0e0d1;
+}
+.container_edit_book p{
+    margin-left: 35px;
+    color:rgb(255, 0, 0);
+}
+.container_edit_book a{
+    position: absolute;
+    margin-left: 228px;
+    margin-top: -2.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container_edit_book input[type="checkbox"]{
+    margin-left: 35px;
+    cursor: pointer;
+}
+.container_edit_book input[type="submit"]{
+    margin-left: -6%;
+    margin-top: 97px;
+    padding: 8px 25px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    transition: all 0.6s;
+    font-weight: 500;
+    margin-bottom: 31px;
+}
+.container_edit_book input[type="submit"]:hover{
+    background-color:#c2c2a3;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.container_edit_book .add_book_out{
+    margin-left: 573px;
+    margin-top: 25px;
+}
+.container_edit_book>form a{
+    position: absolute;
+    margin-top: 276px;
+    margin-left: -115px;
+    font-size: 16px;
+}
+#message_login{
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 332px;
+}
+.container_edit_book>form>label{
+    position: absolute;
+    margin-left: -707px;
+    margin-top: 134.5px;
+    cursor: pointer;
+}
+.container_edit_book textarea{
+    width: 333px;
+    height: 58px;
+}
+.edit_book{
+    margin-left: -706px;
+}
+.container_edit_book>form .a_edit_book{
+    margin-left: 258px;
+    margin-top: 21px;
+}
+.container_edit_book>form .edit_describe_book{
+    margin-left:31px;
+}

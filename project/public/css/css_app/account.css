@@ -1,0 +1,99 @@
+.container_account{
+    position:absolute;
+}
+.container_account>table{
+    border-collapse: collapse;
+    width: 116%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 3px 0px rgb(184 178 178);
+    margin-top: -122px;
+    margin-bottom: 9px;
+    margin-left: 403px;
+    z-index: 1;
+}
+.container_account>table,
+.container_account th,
+.container_account td{
+    border: 1px solid rgb(230, 224, 224);
+    padding: 23px 10px;
+}
+.container_account th{
+    background: rgb(123, 224, 7);
+}
+.container_account th,
+.container_account td{
+    width: 90px;
+    color: #000;
+}
+.container_account h2{
+    position: absolute;
+    margin-top: -39px;
+    margin-left: 336px;
+}
+
+.container_avatar{
+    z-index: 2;
+    height: 224px;
+    width: 222px;
+    position: relative;
+    border: 5px solid rgb(77, 64, 64)(116, 93, 93);
+    border-radius: 100%;
+    background-size: 100% 100%;
+    margin-left: 240px;
+    margin-top: 73px;
+    overflow: hidden;
+}
+.container_avatar img{
+    height: 248px;
+    width: 222px;
+}
+.container_avatar .file{
+    position: absolute;
+    bottom: 0;
+    outline: none;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+    margin-left: -300px;
+}
+.upload_avatar{
+    position: absolute;
+    z-index: 3;
+    margin-top: -20px;
+    margin-left: 316px;
+    padding: 10px 10px;
+    background: linear-gradient(rgb(150, 149, 149),rgb(58, 58, 58));
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    color:rgb(255, 255, 255);
+}
+.dayy{
+    margin-bottom: 200px;
+}
+.change_mk>a{
+    border-radius: 5px;
+    background: rgb(38, 238, 38);
+    padding: 10px;
+    position: absolute;
+    margin-left: 1056px;
+    margin-top: 149px;
+    font-size: 20px;
+    color: rgb(9, 9, 228);
+    cursor: pointer;
+}
+.customer_order>a{
+    border-radius: 5px;
+    background: rgb(38, 238, 38);
+    padding: 10px;
+    position: absolute;
+    margin-left: 820px;
+
+    margin-top: 149px;
+    font-size: 20px;
+    color: rgb(9, 9, 228);
+    cursor: pointer;
+}

@@ -1,0 +1,159 @@
+.cart_book{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(204, 202, 202);
+    box-shadow: 0px 0px 3px 0px rgb(204, 202, 202);
+    margin-top: 50px;
+}
+.cart_book>.no_products>h2{
+    margin: 24px 32px;
+}
+.cart_book>.no_products>.img_no_book img{
+    width: 230px;
+    height: 220px;
+    margin-left: 543px;
+    margin-top: 88px;
+    border-radius:50%;
+    background: rgb(219, 215, 215);
+}
+.cart_book>.no_products>p{
+    margin-top: 350px;
+    margin-left: 519px;
+    color: rgb(100, 100, 96);
+}
+
+.cart_book>.no_products .continue_pay_book{
+    margin-top: 28px;
+    margin-left: 545px;
+    padding: 8px 27px;
+    width: 209px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+    background: linear-gradient(rgb(235 211 191), rgb(245 107 25),rgb(233 110 51));
+    margin-bottom:100px ;
+}
+
+.cart_book>.goods_available h1{
+    margin: 24px 32px;
+}
+
+.cart_book>.goods_available th{
+    background:rgb(4, 241, 64);
+}
+.cart_book>.goods_available th,
+.cart_book>.goods_available td{
+    padding:16px 10px;
+    transition: all 0.6s;
+}
+.cart_book>.goods_available table tr>td p{
+    text-align: center;
+    margin-top: 55px;
+}
+.cart_book>.goods_available tr:hover{
+    background: rgb(238, 235, 235);
+    transition: all 0.6s;
+}
+.cart_book>.goods_available .pay_book{
+    margin-top: 100px;
+}
+.cart_book>.goods_available .pay_book>h2{
+    margin: 10px 10px;
+    margin-bottom: 50px;
+}
+.cart_book>.goods_available .pay_book>label{
+    margin-left: 64px;
+    font-weight: 600;
+}
+.delete_book_row{
+    padding: 6px 13px;
+    background: linear-gradient(rgb(56, 151, 56), rgb(64, 185, 70) ,rgb(3, 92, 32));
+    border-radius: 5px;
+    color: #fff;
+}
+.cart_book>.goods_available .pay_book>p{
+    color: red;
+    margin-bottom: 19px;
+    margin-left: 61px;
+}
+.cart_book>.goods_available input[type=number]{
+    padding: 10px 0px;
+    width: 53px;
+    height: 36px;
+    text-align: center;
+}
+.cart_book>.goods_available button{
+    padding: 9px 10px;
+    margin: -1px 10px;
+}
+
+.cart_book>.goods_available .up_click{
+    position: absolute;
+    cursor: pointer;
+    padding: 9px 21px;
+    height: 41px;
+    margin-left: 1177px;
+    margin-top: 25px;
+    background: rgb(184, 179, 179);
+    border: none;
+    color: #000;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.cart_book>.goods_available .delete_all{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 1040px;
+    background: crimson;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 9px 21px;
+    height: 41px;
+    margin-top: 25px;
+}
+.cart_book>.goods_available .pay_book>input[type=text]{
+    width: 90%;
+    padding: 12px 13px;
+    margin-left: 63px;
+    border: 1px solid rgb(196, 187, 187);
+}
+.cart_book>.goods_available .pay_book>input[type=submit]{
+    padding: 5px 73px;
+    height: 40px;
+    margin-left: 124px;
+    margin-bottom: 50px;
+}
+.cart_book>.goods_available img{
+    width: 100px;
+    height: 130px;
+}
+.cart_book>.goods_available .pay_book>textarea{
+    width: 406px;
+    height: 64px;
+    margin-left: 61px;
+    margin-top: 10px;
+    border: 1px solid rgb(196, 187, 187);
+}
+.cart_book>.goods_available .total>th{
+    background:rgb(238, 74, 74);
+}
+#text_area_pay{
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 60px;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+
+

@@ -1,0 +1,106 @@
+.container_news_order{
+    box-shadow: 0px 0px 2px 0px rgb(201, 198, 198);
+    width: 88%;
+    margin-left: 93px;
+    border: 1px solid  rgb(255, 255, 255);
+    border-radius: 2px;
+}
+.container_news_order .body_orders{
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 72px;
+    border: 1px solid rgb(214, 212, 212);
+    transition: all 0.6s;
+}
+.container_news_order .body_orders:hover{
+    transition: all 0.6s;
+        background:rgb(236, 233, 233);
+}
+.container_news_order .body_orders{
+    display: flex;
+}
+.container_news_order .body_orders div{
+    padding: 8px 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container_news_order .body_orders img{
+    width: 139px;
+    height: 87px;
+}
+
+.container_news_order .body_orders .name h3{
+    margin-top: 22px;
+}
+.container_news_order .body_orders .name p{
+    color: rgb(155, 145, 145);
+}
+.container_news_order .body_orders .many_total h4{
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.container_news_order .body_orders .inf{
+    padding: 31px 10px;
+}
+.container_news_order .body_orders .inf a{
+    background: linear-gradient(rgb(206, 64, 64), rgb(253, 25, 25), rgb(214, 65, 65));
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.container_news_order .body_orders .time{
+    position: absolute;
+    margin-left: 1188px;
+    margin-top: 93px;
+}
+ .empty_cart {
+margin-left: 485px;
+width: 500px;
+height: 500px;
+}
+ .empty_cart img{
+    width: 445px;
+    height: 308px;
+}
+ .empty_cart h3{
+    margin-left: 125px;
+    color: red;
+    font-size: 20px;
+}
+
+.time_bring{
+    margin-top: 41px;
+    margin-left: 76px;
+    color: rgb(65, 65, 65);
+}
+
+.fa-clipboard-check{
+    margin-top: 29px;
+    margin-left: 85px;
+    color: rgb(0, 214, 0);
+    font-size: 31px;
+}
+
+a>.delete_order{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: rgb(117, 121, 117);
+    font-size: 30px;
+}
+a>.delete_order_user{
+    margin-top: -10px;
+    margin-left: 42px;
+    color: rgb(126, 126, 126);
+    font-size: 30px;
+}
+.title_can_feed{
+    color: red;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+}

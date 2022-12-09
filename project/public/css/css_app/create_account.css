@@ -1,0 +1,75 @@
+.container_registration{
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(199 236 209);
+    width: 800px;
+    height: auto;
+    margin-top: 77px;
+    margin-left: 342px;
+    padding: 5px 5px;
+}
+.container_registration>form>div{
+    float:left;
+    margin-left: 12px;
+}
+.container_registration h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.container_registration input[type="text"],.container_registration input[type="password"]{
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 328px;
+    padding: 11px 34px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid#e0e0d1;
+}
+.container_registration p{
+    margin-left: 35px;
+    color:rgb(255, 0, 0);
+}
+.container_registration label{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: -2.5px;
+    cursor: pointer;
+}
+.container_registration a{
+    position: absolute;
+    margin-left: 228px;
+    margin-top: -2.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container_registration input[type="checkbox"]{
+    margin-left: 35px;
+    cursor: pointer;
+}
+.container_registration input[type="submit"]{
+    margin-left: 44%;
+    margin-top: 20px;
+    padding: 8px 25px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    transition: all 0.6s;
+    font-weight: 500;
+    margin-bottom: 31px;
+}
+.container_registration input[type="submit"]:hover{
+    background-color:#c2c2a3;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.container_registration>form a{
+    position: absolute;
+    margin-top: 276px;
+    margin-left: -115px;
+    font-size: 16px;
+}
+#message_login{
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 332px;
+}
